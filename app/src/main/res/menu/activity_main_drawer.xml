@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="none">
+
+
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/w512h5121380476717calendar"
+            android:title="@string/raspisanie" />
+        <item
+            android:id="@+id/nav_send"
+            android:icon="@drawable/ic_chat"
+            android:title="@string/chat" />
+
+        <item
+            android:id="@+id/spisok_prepodov"
+            android:icon="@drawable/spisok"
+            android:title="@string/prepods" />
+
+    </group>
+
+    <item android:title="@string/utilits">
+        <menu>
+            <item
+                android:id="@+id/ip_calc"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/ip" />
+        </menu>
+    </item>
+
+</menu>
